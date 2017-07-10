@@ -1,0 +1,7 @@
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\bin\Release\Screeny.exe.config
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\bin\Release\Screeny.exe
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\bin\Release\Screeny.pdb
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Release\Screeny.Properties.Resources.resources
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Release\Screeny.csproj.GenerateResource.Cache
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Release\Screeny.exe
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Release\Screeny.pdb

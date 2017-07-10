@@ -1,0 +1,8 @@
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\bin\Debug\Screeny.exe.config
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\bin\Debug\Screeny.exe
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\bin\Debug\Screeny.pdb
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Debug\Screeny.csprojResolveAssemblyReference.cache
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Debug\Screeny.Properties.Resources.resources
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Debug\Screeny.csproj.GenerateResource.Cache
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Debug\Screeny.exe
+C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Debug\Screeny.pdb
