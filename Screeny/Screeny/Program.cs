@@ -26,6 +26,12 @@
 ///     "overlay.png" next to the EXE, make shortcut, etc.
 ///     It will make the setup for you, it is easy and simple
 ///     to understand.
+///     
+///     As an added note: you can make a "shortcut" binding
+///     on your mouse button (tested with Razer Imperator
+///     click mid button) but they will be in Razer's folder
+///     unless you create a "setup.cfg" (see code below).
+///     It will be added to the readme eventually.
 /// 
 /// </summary>
 
@@ -47,6 +53,28 @@ namespace Screeny
         static void Main()
         {
             /// <summary>
+            /// Load a config file
+            /// </summary>
+            string FileToSave = "";
+            if (File.Exists("setup.cfg"))
+            {
+                try
+                {
+                    var setupFile = File.ReadAllText("setup.cfg");
+                    var splitSetupFile = setupFile.Split('=');
+                    if (splitSetupFile[0] == "folder")
+                    {
+                        FileToSave = splitSetupFile[1];
+                    }
+                }
+                catch
+                {
+                    throw new Exception("setup.cfg file not correct. folder={where} only currently");
+                }
+            }
+
+
+            /// <summary>
             /// Capture the screen display.
             /// </summary>
             int screenWidth = Screen.PrimaryScreen.Bounds.Width;
@@ -64,9 +92,9 @@ namespace Screeny
             /// <summary>
             /// Make the image an overlay
             /// </summary>
-            if (File.Exists("overlay.png"))
+            if (File.Exists(FileToSave + "overlay.png"))
             {
-                Bitmap Bitmap2 = (Bitmap)Bitmap.FromFile("overlay.png");
+                Bitmap Bitmap2 = (Bitmap)Bitmap.FromFile(FileToSave + "overlay.png");
 
                 var target = new Bitmap(Bitmap1.Width, Bitmap1.Height, PixelFormat.Format32bppArgb);
                 var graphics = Graphics.FromImage(target);
@@ -75,13 +103,13 @@ namespace Screeny
                 graphics.DrawImage(Bitmap1, 0, 0);
                 graphics.DrawImage(Bitmap2, 0, 0);
 
-                target.Save(SaveTime + "_overlayed.png", ImageFormat.Png);
+                target.Save(FileToSave + SaveTime + "_overlayed.png", ImageFormat.Png);
             }
 
             /// <summary>
             /// Save the image in a bitmap.
             /// </summary>
-            Bitmap1.Save(SaveTime + ".png"); //Place that you want to save screenshot
+            Bitmap1.Save(FileToSave + SaveTime + ".png"); //Place that you want to save screenshot
 
         }
     }

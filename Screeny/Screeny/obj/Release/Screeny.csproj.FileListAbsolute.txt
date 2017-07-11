@@ -5,3 +5,11 @@ C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Release\Screeny.Properties.Re
 C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Release\Screeny.csproj.GenerateResource.Cache
 C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Release\Screeny.exe
 C:\Users\madne\Desktop\Screeny\Screeny\Screeny\obj\Release\Screeny.pdb
+C:\Users\madne\OneDrive\Documents\GitHub\screeny\Screeny\Screeny\bin\Release\Screeny.exe.config
+C:\Users\madne\OneDrive\Documents\GitHub\screeny\Screeny\Screeny\bin\Release\Screeny.exe
+C:\Users\madne\OneDrive\Documents\GitHub\screeny\Screeny\Screeny\bin\Release\Screeny.pdb
+C:\Users\madne\OneDrive\Documents\GitHub\screeny\Screeny\Screeny\obj\Release\Screeny.csprojResolveAssemblyReference.cache
+C:\Users\madne\OneDrive\Documents\GitHub\screeny\Screeny\Screeny\obj\Release\Screeny.Properties.Resources.resources
+C:\Users\madne\OneDrive\Documents\GitHub\screeny\Screeny\Screeny\obj\Release\Screeny.csproj.GenerateResource.Cache
+C:\Users\madne\OneDrive\Documents\GitHub\screeny\Screeny\Screeny\obj\Release\Screeny.exe
+C:\Users\madne\OneDrive\Documents\GitHub\screeny\Screeny\Screeny\obj\Release\Screeny.pdb
