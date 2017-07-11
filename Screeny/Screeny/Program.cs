@@ -32,6 +32,9 @@
 ///     click mid button) but they will be in Razer's folder
 ///     unless you create a "setup.cfg" (see code below).
 ///     It will be added to the readme eventually.
+///     
+///     [ also needs to be made and put in the Razer folder:
+///       C:\ProgramData\Razer\Synapse\Devices ]
 /// 
 /// </summary>
 
